@@ -11,5 +11,6 @@ The game ends when all of one team's agents are identified (winning the game for
 ### About the Project:
 
 Our project use deep learning word embedding model to predict relationships between words on the Codenames board. The bot can give hints to the 2 users playing the game by using Gensim Word2Vec Library.
+
 The dataset is Google's DataSetGoogleNews at https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?fbclid=IwAR2cGOoPhXxpTx0GSKLOp8xCbAVFWXcofbZ16NSeyZZ9rD0AOmFXr8M95bU. This file is 1.5 GB and contains Google's dataset of millions of sentences. 
 
