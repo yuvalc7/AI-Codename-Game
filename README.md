@@ -1,3 +1,4 @@
-# AI-Codename-Game - Computer Science Degree - Final Project Ariel University - Israel
+# AI-Codename-Game
 
-## he
+## Computer Science Degree - Final Project Ariel University - Israel
+
