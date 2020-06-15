@@ -14,4 +14,4 @@ Our project use deep learning word embedding model to predict relationships betw
 
 The dataset is Google's DataSetGoogleNews at https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit?fbclid=IwAR2cGOoPhXxpTx0GSKLOp8xCbAVFWXcofbZ16NSeyZZ9rD0AOmFXr8M95bU. This file is 1.5 GB and contains Google's dataset of millions of sentences. 
 
-![](images/game_example.png)
+<img src="game_example.png" width="40%" hight="50%">.
