@@ -77,23 +77,6 @@ def generate_board(word_list):
     board = np.reshape(board,(5,5))
     return board, red, blue, neutral, assassin
 
-"""Guesses the most similar n words out of given words list based on given clue.
-
-Threshold similarity for guessed words must be greater than 0.2
-
-:param clue: given clue
-:param words: given list of words to guess from
-:param n: max number of words to guess
-:return: list of length at most n of best guesses
-"""
-def guess(clue, words, n):
-    poss = {}
-    for w in words:
-        poss[w] = model.similarity(clue, w)
-    poss_lst = sorted(poss, key=poss.__getitem__, reverse=True)
-    top_n = poss_lst[:n]
-    return [w for w in top_n if poss[w] > 0.2]
-
 """Verifies that a clue is valid.
 
 A clue (word2) is invalid if either word is a substring of the other, if there is an underscore
