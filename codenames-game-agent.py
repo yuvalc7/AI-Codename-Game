@@ -197,14 +197,11 @@ class CodeNames():
 	def __init__(self):
 		def start_game():
 			agent_begin()
-			# else:
-			# 	spy_begin()
 		def agent_begin():
 			startmenu.destroy()
 			label.destroy()
 			frame.destroy()
 			agent_button.destroy()
-			#spy_button.destroy()
 			red_score = 0
 			blue_score = 0
 			curr_player = 0
